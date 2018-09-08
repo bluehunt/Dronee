@@ -1,1 +1,1 @@
-drone.js
+console.log("nique ta mère")
