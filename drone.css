@@ -1,3 +1,17 @@
+
+#menu {
+  font-size: 30px;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .row { /* I removed the padding to the bootstrap class */
   margin-right: 0px !important;
   margin-left: 0px !important;
@@ -72,17 +86,6 @@
 .link1-footer, .link2-footer {
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
