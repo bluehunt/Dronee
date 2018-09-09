@@ -1,7 +1,9 @@
 
 #menu {
   font-size: 30px;
-  color: red;
+  color: white;
+  position: absolute;
+  right: 20px;
 }
 
 .hidden {
@@ -10,6 +12,12 @@
 
 .show {
   display: block;
+  position: absolute;
+  right: 20px;
+}
+
+#list {
+ list-style: none;
 }
 
 .row { /* I removed the padding to the bootstrap class */
