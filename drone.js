@@ -12,3 +12,4 @@ console.log('Hello World from Webpacker')
   $('.nav').toggleClass('visible');
 
 });
+
