@@ -1,3 +1,4 @@
+
 #menu {
   font-size: 30px;
   color: red;
@@ -9,4 +10,51 @@
 
 .show {
   display: block;
+}
+
+.row { /* I removed the padding to the bootstrap class */
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+
+.land-page {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://cdn.cnn.com/cnnnext/dam/assets/170707112424-3rd-prize-drone-winner-category-urban-full-169.jpg");
+  width: 100vw;
+  height: 90vh;
+
+}
+
+.logo-land-page {
+  width: 90px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.land-page h1 {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.land-page h5 {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.land-page h6 {
+  color: white;
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.container-photo1-home img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: none
+
+
 }
