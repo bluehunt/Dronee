@@ -1,0 +1,12 @@
+#menu {
+  font-size: 30px;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
