@@ -39,9 +39,65 @@
 
 .container-photo1-home img {
   width: 100vw;
-  height: 40vh;
-  object-fit: none
-
-
+  height: 60vh;
+  object-fit: none;
+  border-top: 5px solid white;
 }
+
+.container-photo2-home img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.container-photo3-home img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: rgb(32, 32, 32)
+}
+
+.footer .row {
+  padding-top: 15px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+.link1-footer, .link2-footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
