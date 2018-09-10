@@ -1,3 +1,11 @@
+body {
+  background-color: rgb(51, 51, 51) !important;
+}
+
+.row { /* I removed the padding to the bootstrap class */
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
 
 #menu {
   font-size: 30px;
@@ -23,12 +31,6 @@
 #list {
  list-style: none;
 }
-
-.row { /* I removed the padding to the bootstrap class */
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-}
-
 
 .land-page {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://cdn.cnn.com/cnnnext/dam/assets/170707112424-3rd-prize-drone-winner-category-urban-full-169.jpg");
@@ -67,19 +69,68 @@
   width: 100vw;
   height: 60vh;
   object-fit: none;
-  border-top: 5px solid white;
+  padding: 20px 30px;
+}
+
+.container-photo2-home {
+  position: relative;
 }
 
 .container-photo2-home img {
   width: 100vw;
-  height: 40vh;
+  height: 30vh;
   object-fit: cover;
+  padding: 0px 30px;
+}
+
+.container-photo2-home p {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 15%;
+  right: 22px;
+  width: 40%;
+  text-align: center;
+}
+
+.container-photo3-home {
+  position: relative;
 }
 
 .container-photo3-home img {
   width: 100vw;
-  height: 40vh;
+  height: 36vh;
   object-fit: cover;
+  padding: 20px 30px;
+}
+
+.container-photo3-home p {
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  bottom: 10%;
+  left: 26px;
+  width: 40%;
+  text-align: center;
+}
+
+.container-video1-home-phones {
+  position: relative;
+}
+
+.container-video1-home-phones video {
+  width: 100vw;
+  height: 80vh;
+  object-fit: fill;
+}
+
+.container-video1-home-phones a {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 24px;
+  text-decoration: none;
 }
 
 .footer {
