@@ -1,9 +1,12 @@
 
 #menu {
-  font-size: 30px;
+  font-size: 18px;
   color: white;
   position: absolute;
-  right: 20px;
+  right: 15px;
+  top: 4px;
+  -webkit-transition: all 2s; /* Safari */
+  transition: all 2s;
 }
 
 #menu img {
@@ -14,14 +17,18 @@
   display: none;
 }
 
-.show {
-  display: block;
-  position: absolute;
-  right: 20px;
+li {
+  margin-top: 4px;
 }
 
-#list {
- list-style: none;
+ul {
+  list-style: none;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  transition: all 2s;
 }
 
 .row { /* I removed the padding to the bootstrap class */
