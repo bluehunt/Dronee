@@ -5,31 +5,34 @@
   position: absolute;
   right: 15px;
   top: 4px;
-  -webkit-transition: all 2s; /* Safari */
-  transition: all 2s;
 }
 
 #menu img {
   width: 20px;
 }
 
-.hidden {
-  display: none;
+ul {
+  list-style: none;
+  display: block;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+}
+
+.toggle {
+  opacity: 0;
+  transition: .5s;
+}
+
+.toggle.showm {
+  opacity: 1 !important;
+  transition: .5s;
 }
 
 li {
   margin-top: 4px;
 }
 
-ul {
-  list-style: none;
-  opacity: 0;
-  display: block;
-  position: absolute;
-  right: 0px;
-  text-align: right;
-  transition: all 2s;
-}
 
 .row { /* I removed the padding to the bootstrap class */
   margin-right: 0px !important;
