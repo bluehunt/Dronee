@@ -36,7 +36,7 @@ body {
 .land-page {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://cdn.cnn.com/cnnnext/dam/assets/170707112424-3rd-prize-drone-winner-category-urban-full-169.jpg");
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 
 }
 
@@ -49,21 +49,21 @@ body {
 .land-page h1 {
   color: white;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
 
 }
 
 .land-page h5 {
   color: white;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .land-page h6 {
   color: white;
   float: right;
   padding-right: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .container-photo1-home img {
