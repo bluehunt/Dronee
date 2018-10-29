@@ -1,0 +1,266 @@
+html, body {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+font-family: 'helvetica neue';
+background-color: rgb(51, 51, 51);
+overflow-x: hidden;
+}
+
+.container-1-work {
+  position: relative;
+}
+
+.container-1-work img {
+  width: 98vw;
+  height: 90vh;
+  object-fit: cover;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container-1-work h1 {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 110px;
+}
+
+.container-1-work h5 {
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 13px;
+  background-color: black;
+  padding: 35px 40px;
+}
+
+.container-description-1-work {
+  background-color: white;
+  margin: auto;
+  width: 98vw;
+}
+
+.container-description-1-work h2 {
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 110px;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51)
+}
+
+.container-description-1-work p {
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.description-link1-work {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.description-link1-work a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  padding: 30px 40px;
+}
+
+/* ---------------SECOND PART---------------- */
+
+.container-2-work {
+  position: relative;
+}
+
+.container-2-work img {
+  width: 98vw;
+  height: 90vh;
+  object-fit: cover;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.container-2-work h1 {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 110px;
+}
+
+.container-2-work h5 {
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 13px;
+  background-color: black;
+  padding: 35px 40px;
+}
+
+.container-description-2-work {
+  background-color: white;
+  margin: auto;
+  width: 98vw;
+}
+
+.container-description-2-work h2 {
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 110px;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51)
+}
+
+.container-description-2-work p {
+  color: rgb(51, 51, 51);
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.description-link2-work {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.description-link2-work a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  padding: 30px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* THE FOLLWINGS LINES ARE TO BE DEVELOPED :) */
+
+/* .image-test img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cont-test {
+    height: 100vh;
+    transform-style: preserve-3d;
+    perspective: 1px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    will-change: scroll-position;
+}
+
+.text-test {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.image-test {
+    height: 1600px;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1600px;
+        background: linear-gradient(
+            135deg,
+            rgba(#fb2b2b, 0) 0%,
+            rgba(#fb2b2b, 0.5) 100%
+        );
+    }
+}
+
+.text-test h2 {
+    color: #fb2b2b;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    font-size: 212px;
+    font-style: italic;
+    font-family: Arial;
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+    transform: translateZ(-0.35px) scale(1.35);
+    transform-origin: center top;
+    text-shadow: 1px 1px 8px rgba(black, 0.15);
+    animation: 750ms flyinleft ease-out both;
+}
+
+@keyframes flyinleft {
+    0% {
+        opacity: 0;
+        left: -80%;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
