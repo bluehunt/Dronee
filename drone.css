@@ -1,6 +1,6 @@
 
 body {
-background-color: rgb(51, 51, 51) !important;
+
 }
 
 .row { /* I removed the padding to the bootstrap class */
@@ -68,38 +68,39 @@ background-color: rgb(51, 51, 51) !important;
 
 /* ----------Second part----------- */
 
-.container2, .container3  {
-  background-color: white;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
+.wrap-container23 {
+  background-image: url('https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-0.3.5&s=eff59cf4024d03fe241d16708a54e065&auto=format&fit=crop&w=562&q=80');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+padding-top: 30px;
+padding-bottom: 30px;
+
 }
 
-.container3 {
-  margin-top: -1px !important;
+.container2, .container3  {
+  background-color: white;
+  margin-left: 19px;
+  margin-right: 19px;
 }
+
 
 .container2 img, .container3 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 100%;
 }
 
 .container2 h4, .container3 h4 {
   text-align: center;
   color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   margin-bottom: 0px;
 }
 
-div {
-  margin: 0px;
-}
 
 
 
