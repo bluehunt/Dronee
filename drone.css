@@ -1,6 +1,6 @@
 
 body {
-background-color: rgb(51, 51, 51) !important;
+
 }
 
 .row { /* I removed the padding to the bootstrap class */
@@ -99,39 +99,93 @@ background-color: rgb(51, 51, 51) !important;
 
 /* ----------Second part----------- */
 
-.container2, .container3  {
-  background-color: white;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
+.wrap-container23 {
+background-color: rgb(51, 51, 51);
+  /* background-image: url('https://images.unsplash.com/photo-1540690623547-c1990572eab5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4c9893fa9347fc5bdef3ea7e7d14d31a&auto=format&fit=crop&w=634&q=80'); */
+background-size: 100% 100%;
+background-repeat: no-repeat;
+padding-top: 20px;
+padding-bottom: 20px;
+
 }
 
-.container3 {
-  margin-top: -1px !important;
+.container2, .container3  {
+  background-color: white;
+  margin-left: 19px;
+  margin-right: 19px;
 }
+
 
 .container2 img, .container3 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 100%;
 }
 
 .container2 h4, .container3 h4 {
   text-align: center;
   color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   margin-bottom: 0px;
 }
 
-div {
-  margin: 0px;
+
+
+.container4 {
+  background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
+
 }
 
+.container4 h3 {
+  padding-top: 35%;
+  padding-bottom: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: white;
+  font-size: 34px;
+}
+
+.container4 img {
+  padding-bottom: 30%;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: invert(.8);
+  filter: invert(.8);
+}
+
+/* ---------footer------------ */
+
+footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  z-index: -1;
+  height: 150px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 35px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 26px;
+
+}
+
+
+@media (max-width: 420px) {
+  footer {
+    font-size: 9pt;
+  }
+}
 
 
 
