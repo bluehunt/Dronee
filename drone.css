@@ -34,10 +34,11 @@ body {
 
 .land-page {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://cdn.cnn.com/cnnnext/dam/assets/170707112424-3rd-prize-drone-winner-category-urban-full-169.jpg");
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-
 }
+
 
 .logo-land-page {
   width: 90px;
@@ -128,6 +129,10 @@ padding-bottom: 20px;
   filter: invert(.8);
 }
 
+.container5 {
+  display: none;
+}
+
 /* ---------footer------------ */
 
 footer {
@@ -157,6 +162,119 @@ footer p {
 
 
 
+
+/* --------------------Tablets------------------------ */
+
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .land-page {
+      height: 70vh;
+    }
+
+    .logo-land-page {
+      width: 110px;
+      padding-left: 40px;
+      padding-top: 100px;
+    }
+
+    .land-page h1 {
+      color: white;
+      padding-left: 40px;
+      padding-top: 60px;
+    }
+
+    .land-page h5 {
+      color: white;
+      padding-left: 40px;
+      padding-top: 50px;
+    }
+
+    .land-page h6 {
+      color: white;
+      float: right;
+      padding-right: 40px;
+      padding-top: 90px;
+    }
+
+    .wrap-container23 {
+    background-color: rgb(51, 51, 51);
+      /* background-image: url('https://images.unsplash.com/photo-1540690623547-c1990572eab5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4c9893fa9347fc5bdef3ea7e7d14d31a&auto=format&fit=crop&w=634&q=80'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    }
+
+    .container2, .container3 {
+      margin-left: 0px;
+      margin-right: 0px;
+      background-color: rgb(242, 242, 242)
+    }
+
+    .container2 img, .container3 img {
+      display: block;
+      margin-left: auto;
+      margin-right: 50%;
+      width: 50%;
+      padding-top: 30px;
+      padding-left: 40px;
+    }
+
+    .container3 img {
+      padding-bottom: 30px;
+    }
+
+    .container2 h4, .container3 h4 {
+      display: none;
+    }
+
+    .container3 {
+      margin-top: -2px;
+    }
+
+    .container5 img {
+      width: 300px;
+    }
+
+    .container5 {
+      display: inline;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+    }
+
+    .container4 h3 {
+      padding-top: 25%;
+      padding-bottom: 5%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      color: white;
+      font-size: 34px;
+    }
+
+    .container4 img {
+      padding-bottom: 25%;
+      width: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-filter: invert(.8);
+      filter: invert(.8);
+    }
+
+    #menu {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+  }
+}
 
 
 
