@@ -2,6 +2,10 @@
 console.log("hello")
 const menu = document.getElementById('navbar');
 const list = document.getElementById('list-container');
+const contact = document.getElementById('card');
+const contactTarget = document.getElementById('contact-target');
+
+
 menu.addEventListener("click", (event) => {
 
   list.classList.toggle('pascaché');
@@ -11,3 +15,11 @@ menu.addEventListener("click", (event) => {
     menu.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png';
   }
 });
+
+
+contactTarget.addEventListener("click", function() {
+  contact.classList.toggle('contact-view');
+})
+
+
+

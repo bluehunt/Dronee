@@ -10,10 +10,11 @@ body {
 
 #navbar {
   color: white;
-  width: 20px;
+  width: 30px;
   position: absolute;
   top: 15px;
   right: 15px;
+  z-index: 18;
 }
 
 
@@ -22,12 +23,13 @@ body {
   margin: 0px;
   padding: 0px;
   transition:  1s;
+  z-index: 18;
 }
 
 .caché {
   opacity: 0;
   right: -70px;
-  top: 40px;
+  top: 50px;
   position: absolute;
   transition: 1s;
 } .pascaché {
@@ -53,11 +55,25 @@ body {
   text-decoration: none;
 }
 
-.sticky {
-  position: sticky;
-  top: 0px;
-}
 
+.contact {
+  transition: .9s ease opacity,.9s ease transform;
+  opacity: 0;
+  transform: scale(0);
+  text-align: center;
+  color: white;
+  background-color: grey;
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid;
+  font-size: 16px;
+  z-index: 18;
+} .contact-view {
+  opacity: 1;
+  transform: scale(1);
+}
 
 /* ---------------Mon terrain de jeu la haut--------------------*/
 

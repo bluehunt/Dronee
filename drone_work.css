@@ -168,7 +168,40 @@ overflow-x: hidden;
 
 
 
+/*--------------- Changer le style de la navbar pour qu'il passe sur cette page ------*/
 
+.list-element-work {
+  text-align: right;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.list-element-work:hover {
+  background-color: rgba(91, 104, 104, 0.8);
+}
+
+.contact-work {
+  transition: .9s ease opacity,.9s ease transform;
+  opacity: 0;
+  transform: scale(0);
+  text-align: center;
+  color: white;
+  background-color: grey;
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid;
+  font-size: 16px;
+  z-index: 18;
+  position: absolute;
+  top: 21%;
+  left: 34%;
+}
+
+/* ---------------------*/
 
 
 
