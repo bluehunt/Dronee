@@ -1,20 +1,12 @@
-var arr = ["Clément-Truff","Dudu","whillish","L'artiste", "Bénichou", "Valiche"];
+console.log("hello")
+const menu = document.getElementById('navbar');
+const list = document.getElementById('list-container');
+menu.addEventListener("click", (event) => {
 
-var arrbeuh = [0,1,2,3,4,5];
-
-
-function Départagement () {
-
-
-    // var test = arrbeuh[Math.floor(Math.random() * 6)];
-    // var plus = Math.floor(Math.random() * 6)
-    // var expé = arr[plus];
-
-    // arrbeuh.splice(test, 1);
-    // arr.splice(plus, 1);
-    console.log(arr.sort());
-    console.log(arrbeuh.sort());
-
-}
-
-Départagement();
+  list.classList.toggle('pascaché');
+  if (menu.src === 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png') {
+  menu.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1540041871/croixicone.png';
+  } else {
+    menu.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png';
+  }
+});

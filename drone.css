@@ -8,30 +8,61 @@ background-color: rgb(51, 51, 51) !important;
   margin-left: 0px !important;
 }
 
-#menu {
-  font-size: 30px;
+#navbar {
   color: white;
-  position: absolute;
-  right: 20px;
-}
-
-#menu img {
   width: 20px;
-}
-
-.hidden {
-  display: none;
-}
-
-.show {
-  display: block;
   position: absolute;
-  right: 20px;
+  top: 15px;
+  right: 15px;
 }
 
-#list {
- list-style: none;
+
+#list-container {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  transition:  1s;
 }
+
+.caché {
+  opacity: 0;
+  right: -70px;
+  top: 40px;
+  position: absolute;
+  transition: 1s;
+} .pascaché {
+  right: 15px;
+  opacity: 1;
+}
+
+.list-element {
+  text-align: right;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.list-element:hover {
+  background-color: rgba(185, 220, 228, 0.3);
+}
+
+#work-element {
+  color: white;
+  text-decoration: none;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+}
+
+
+/* ---------------Mon terrain de jeu la haut--------------------*/
+
+
+
 
 .land-page {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://cdn.cnn.com/cnnnext/dam/assets/170707112424-3rd-prize-drone-winner-category-urban-full-169.jpg");
