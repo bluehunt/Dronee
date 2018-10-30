@@ -3,6 +3,7 @@ console.log("hello")
 const menu = document.getElementById('navbar');
 const list = document.getElementById('list-container');
 const contact = document.getElementById('card');
+const contact1 = document.getElementById('card1');
 const contactTarget = document.getElementById('contact-target');
 
 
@@ -23,3 +24,6 @@ contactTarget.addEventListener("click", function() {
 
 
 
+contactTarget.addEventListener("click", function() {
+  contact1.classList.toggle('contact-work-view');
+})
