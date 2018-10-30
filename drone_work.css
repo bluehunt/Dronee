@@ -197,8 +197,11 @@ overflow-x: hidden;
   font-size: 16px;
   z-index: 18;
   position: absolute;
-  top: 21%;
-  left: 34%;
+  top: 18%;
+  right: 30%;
+} .contact-work-view {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* ---------------------*/
