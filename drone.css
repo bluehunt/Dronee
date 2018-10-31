@@ -56,13 +56,17 @@ body {
   transform: scale(0);
   text-align: center;
   color: white;
+
+
+  width: 30%;
+  margin: auto;
+
   background-color: rgb(51, 51, 51);
   margin: 2% 15%;
+
   padding: 20px;
   font-size: 16px;
   z-index: 18;
-  display: flex;
-  flex-direction: column;
 } .contact-view {
   opacity: 1;
   transform: scale(1);
@@ -292,7 +296,7 @@ footer p {
       position: absolute;
       top: 30px;
       right: 40px;
-      width: 35%;
+      width: 35git%;
     }
 
     .container4 h3 {
@@ -315,22 +319,13 @@ footer p {
       filter: invert(.8);
     }
 
-    .contact {
-      margin: 5% 25%;
-      font-size: 20px;
-    }
-
-    #navbar {
-      width: 25px;
-    }
-
-    .caché {
-      top: 70px;
-    }
-
-    .list-element {
-      font-size: 22px;
-    }
+    #menu {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+  }
 }
 
 
@@ -439,22 +434,15 @@ footer p {
       filter: invert(.8);
     }
 
-    #navbar {
-      width: 25px;
-    }
+    #menu {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+  }
 
-    .caché {
-      top: 70px;
-    }
 
-    .contact {
-      margin: 6% 35%;
-      font-size: 22px;
-    }
-
-    .list-element {
-      font-size: 22px;
-    }
 }
 
 
