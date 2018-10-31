@@ -10,10 +10,10 @@ body {
 
 #navbar {
   color: white;
-  width: 30px;
+  width: 20px;
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 35px;
+  right: 35px;
   z-index: 18;
 }
 
@@ -29,7 +29,7 @@ body {
 .caché {
   opacity: 0;
   right: -70px;
-  top: 50px;
+  top: 60px;
   position: absolute;
   transition: 1s;
 } .pascaché {
