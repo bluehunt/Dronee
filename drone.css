@@ -285,7 +285,7 @@ footer p {
     }
 
     .container5 img {
-      width: 300px;
+      width: 100%;
     }
 
     .container5 {
@@ -293,6 +293,7 @@ footer p {
       position: absolute;
       top: 30px;
       right: 40px;
+      width: 35%;
     }
 
     .container4 h3 {
@@ -383,7 +384,7 @@ footer p {
       margin-right: 50%;
       width: 50%;
       padding-top: 30px;
-      padding-left: 40px;
+      padding-left: 7%;
     }
 
     .container3 img {
@@ -406,9 +407,8 @@ footer p {
       display: inline;
       position: absolute;
       top: 30px;
-      right: 0px;
-      width: 40%;
-      right: 50px
+      width: 33%;
+      right: 7%;
     }
 
     .container4 h3 {
