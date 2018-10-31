@@ -63,13 +63,14 @@ body {
   text-align: center;
   color: white;
   background-color: grey;
-  width: 30%;
-  margin: auto;
+  margin: 2% 15%;
   padding: 20px;
   border-radius: 10px;
   border: solid;
   font-size: 16px;
   z-index: 18;
+  display: flex;
+  flex-direction: column;
 } .contact-view {
   opacity: 1;
   transform: scale(1);
@@ -315,13 +316,22 @@ footer p {
       filter: invert(.8);
     }
 
-    #menu {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    right: 40px;
-    top: 30px;
-  }
+    .contact {
+      margin: 5% 25%;
+      font-size: 20px;
+    }
+
+    #navbar {
+      width: 25px;
+    }
+
+    .caché {
+      top: 70px;
+    }
+
+    .list-element {
+      font-size: 22px;
+    }
 }
 
 
@@ -431,15 +441,22 @@ footer p {
       filter: invert(.8);
     }
 
-    #menu {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    right: 40px;
-    top: 30px;
-  }
+    #navbar {
+      width: 25px;
+    }
 
+    .caché {
+      top: 70px;
+    }
 
+    .contact {
+      margin: 6% 35%;
+      font-size: 22px;
+    }
+
+    .list-element {
+      font-size: 22px;
+    }
 }
 
 

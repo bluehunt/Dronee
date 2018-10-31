@@ -18,11 +18,10 @@ function menuGlissé() {
 
 
 
-
 menu.addEventListener("click", (event) => {
   if (menu.src === 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png') {
   list.style.display = 'block';
-  window.setTimeout(menuGlissé, 1);
+  window.setTimeout(menuGlissé, 15);
   } else {
   menuGlissé();
   window.setTimeout(function(){list.style.display = 'none';}, 700)
