@@ -331,7 +331,7 @@ overflow-x: hidden;
   font-size: 16px;
   z-index: 18;
   position: absolute;
-  top: 12%;
+  top: 18%;
   right: 1%;
   transition: .3s;
 } .contact-work-view {
@@ -347,27 +347,26 @@ overflow-x: hidden;
 
 .caché1 {
   opacity: 0;
-  right: -70px;
   top: 60px;
+  right: 15px;
   position: absolute;
   transition: 1s;
 } .pascaché1 {
-  right: 15px;
   opacity: 1;
 }
 
-.sticky {
+/*.sticky {
   position: sticky;
   top: 0px;
-  z-index: 300;
-}
+  z-index: 20;
+}*/
 
 #list-container1 {
   list-style: none;
   margin: 0px;
   padding: 0px;
   transition:  1s;
-  /*z-index: 18;*/
+  z-index: 18;
 }
 
 #navbar1 {
@@ -376,7 +375,7 @@ overflow-x: hidden;
   position: absolute;
   top: 35px;
   right: 35px;
-  /*z-index: 18;*/
+  z-index: 18;
 }
 
 #work-element1 {
