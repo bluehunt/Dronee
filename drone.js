@@ -6,14 +6,26 @@ const contact = document.getElementById('card');
 const contact1 = document.getElementById('card1');
 const contactTarget = document.getElementById('contact-target');
 
-
-menu.addEventListener("click", (event) => {
+function menuGlissé() {
 
   list.classList.toggle('pascaché');
   if (menu.src === 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png') {
-  menu.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1540041871/croixicone.png';
+    menu.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1540041871/croixicone.png';
   } else {
     menu.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png';
+  }
+};
+
+
+
+
+menu.addEventListener("click", (event) => {
+  if (menu.src === 'https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png') {
+  list.style.display = 'block';
+  window.setTimeout(menuGlissé, 1);
+  } else {
+  menuGlissé();
+  window.setTimeout(function(){list.style.display = 'none';}, 700)
   }
 });
 
