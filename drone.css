@@ -329,6 +329,9 @@ footer p {
       top: 70px;
     }
 
+    .list-element {
+      font-size: 22px;
+    }
 }
 
 
@@ -448,6 +451,10 @@ footer p {
 
     .contact {
       margin: 6% 35%;
+      font-size: 22px;
+    }
+
+    .list-element {
       font-size: 22px;
     }
 }
