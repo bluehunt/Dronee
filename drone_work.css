@@ -334,7 +334,9 @@ overflow-x: hidden;
   top: 12%;
   right: 1%;
   transition: .3s;
-} .contact-work-view {
+} 
+
+.contact-work-view {
   opacity: 1;
   transform: scale(1);
 }
@@ -351,7 +353,9 @@ overflow-x: hidden;
   top: 60px;
   position: absolute;
   transition: 1s;
-} .pascaché1 {
+} 
+
+.pascaché1 {
   right: 15px;
   opacity: 1;
 }
@@ -361,6 +365,21 @@ overflow-x: hidden;
   top: 0px;
   z-index: 300;
 }
+
+  top: 60px;
+  right: 15px;
+  position: absolute;
+  transition: 1s;
+} .pascaché1 {
+  opacity: 1;
+}
+
+/*.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+}*/
+
 
 #list-container1 {
   list-style: none;
