@@ -150,7 +150,6 @@ overflow-x: hidden;
 }
 
 
-
 /* ---------------laptop---------------- */
 
 
@@ -299,6 +298,10 @@ overflow-x: hidden;
     color: rgb(51, 51, 51);
   }
 
+  .contact-work {
+    top: 18%;
+  }
+
 }
 
 /*--------------- Changer le style de la navbar pour qu'il passe sur cette page ------*/
@@ -328,7 +331,7 @@ overflow-x: hidden;
   font-size: 16px;
   z-index: 18;
   position: absolute;
-  top: 18%;
+  top: 12%;
   right: 1%;
   transition: .3s;
 } .contact-work-view {
@@ -341,10 +344,89 @@ overflow-x: hidden;
   background-color: white;
   border-bottom: 2px solid red;
 }
+
+.caché1 {
+  opacity: 0;
+  right: -70px;
+  top: 60px;
+  position: absolute;
+  transition: 1s;
+} .pascaché1 {
+  right: 15px;
+  opacity: 1;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 300;
+}
+
+#list-container1 {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  transition:  1s;
+  z-index: 18;
+}
+
+#navbar1 {
+  color: white;
+  width: 20px;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  z-index: 18;
+}
+
+#work-element1 {
+  color: white;
+  text-decoration: none;
+}
 /* ---------------------*/
 
 
+/*#navbar {
+  color: white;
+  width: 20px;
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  z-index: 18;
+}
 
+
+#list-container {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  transition:  1s;
+  z-index: 18;
+}
+
+.caché {
+  opacity: 0;
+  right: -70px;
+  top: 60px;
+  position: absolute;
+  transition: 1s;
+} .pascaché {
+  right: 15px;
+  opacity: 1;
+}
+
+.list-element {
+  text-align: right;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.list-element:hover {
+  background-color: rgba(185, 220, 228, 0.3);
+}*/
 
 
 
