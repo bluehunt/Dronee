@@ -334,7 +334,7 @@ overflow-x: hidden;
   top: 12%;
   right: 1%;
   transition: .3s;
-} 
+}
 
 .contact-work-view {
   opacity: 1;
@@ -353,7 +353,7 @@ overflow-x: hidden;
   top: 60px;
   position: absolute;
   transition: 1s;
-} 
+}
 
 .pascaché1 {
   right: 15px;
@@ -403,6 +403,8 @@ overflow-x: hidden;
   text-decoration: none;
 }
 /* ---------------------*/
+
+
 
 
 /*#navbar {
