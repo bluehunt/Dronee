@@ -298,10 +298,6 @@ overflow-x: hidden;
     color: rgb(51, 51, 51);
   }
 
-  .contact-work {
-    top: 18%;
-  }
-
 }
 
 /*--------------- Changer le style de la navbar pour qu'il passe sur cette page ------*/
@@ -320,9 +316,8 @@ overflow-x: hidden;
 }
 
 .contact-work {
-  transition: .9s ease opacity,.9s ease transform;
+  transition: 1s;
   opacity: 0;
-  transform: scale(0);
   text-align: center;
   color: white;
   background-color: rgb(51, 51, 51);
@@ -331,14 +326,13 @@ overflow-x: hidden;
   font-size: 16px;
   z-index: 18;
   position: absolute;
-  top: 12%;
-  right: 1%;
-  transition: .3s;
+  top: 0%;
+  left: -33%;
 }
 
 .contact-work-view {
   opacity: 1;
-  transform: scale(1);
+  left: 1%;
 }
 
 .contact-work:hover {
@@ -366,13 +360,7 @@ overflow-x: hidden;
   z-index: 300;
 }
 
-  top: 60px;
-  right: 15px;
-  position: absolute;
-  transition: 1s;
-} .pascaché1 {
-  opacity: 1;
-}
+
 
 /*.sticky {
   position: sticky;
