@@ -186,6 +186,10 @@
   object-fit: cover;
 }
 
+.pic33 {
+  display: none;
+}
+
 .loc3 {
   position: absolute;
   font-size: 15px;
@@ -218,6 +222,10 @@
   top: 600px;
   height: 150px;
   object-fit: cover;
+}
+
+.pic55 {
+  display: none;
 }
 
 .loc5 {
@@ -445,6 +453,10 @@ footer p {
     object-fit: cover;
   }
 
+  .pic33 {
+  display: none;
+  }
+
   .loc3 {
     position: absolute;
     font-size: 17px;
@@ -477,6 +489,10 @@ footer p {
     top: 600px;
     height: 150px;
     object-fit: cover;
+  }
+
+  .pic55 {
+    display: none;
   }
 
   .loc5 {
@@ -703,6 +719,7 @@ footer p {
     top: 300px;
     height: 200px;
     object-fit: cover;
+    display: block;
   }
 
   .loc3 {
@@ -742,6 +759,7 @@ footer p {
     top: 600px;
     height: 150px;
     object-fit: cover;
+    display: block;
   }
 
   .loc5 {
