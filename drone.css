@@ -3,6 +3,10 @@
   margin-left: 0px !important;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* END FIRST SPEC */
 
 /* MENU + CONTACT */
@@ -161,6 +165,10 @@
   left: 10px;
   color: white;
   font-family: 'Montserrat', sans-serif;
+}
+
+.text1 p {
+  display: none;
 }
 
 .pic2 {
@@ -430,6 +438,10 @@ footer p {
     font-family: 'Montserrat', sans-serif;
   }
 
+  .text1 p {
+    display: none;
+  }
+
   .pic2 {
     position: absolute;
     width: 100vw;
@@ -679,8 +691,11 @@ footer p {
     position: absolute;
     width: 100vw;
     top: 0px;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
+    transition-timing-function: ease-in ease-out;
+    transition: 0.5s;
+    z-index: 6;
   }
 
   .loc1 {
@@ -690,14 +705,52 @@ footer p {
     left: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    z-index: 6;
+    transition: 0.5s;
+    height: 150px;
+    width: 100%;
   }
+
+  .text1 p {
+    position: absolute;
+    top: 700px;
+    transition: 0.5s;
+  }
+
+  .test1:hover .pic1 {
+    height: 270px;
+    z-index: 6;
+    margin-top: -60px;
+  }
+
+  .test1:hover .loc1 {
+    left: 200px;
+    top: -20px;
+  }
+
+  .test1:hover .text1 p {
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline;
+    text-align: center;
+    z-index: 6;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 30px;
+    visibility: visible;
+  }
+
 
   .pic2 {
     position: absolute;
     width: 100vw;
     top: 150px;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
+    transition-timing-function: ease-in ease-out;
+    transition: 0.5s;
+    z-index: 5;
   }
 
   .loc2 {
@@ -707,6 +760,38 @@ footer p {
     right: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    z-index: 5
+  }
+
+  .text2 p {
+    display: none;
+    position: absolute;
+  }
+
+  .test2:hover .pic2 {
+    height: 270px;
+    z-index: 7;
+    margin-top: -60px;
+  }
+
+  .test2:hover .loc2 {
+    right: 200px;
+    top: 150px;
+    z-index: 7
+  }
+
+  .test2:hover .text2 p {
+    top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline;
+    text-align: center;
+    z-index: 7;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 30px;
+    color: white;
   }
 
   .pic3 {
@@ -717,9 +802,10 @@ footer p {
     position: absolute;
     width: 100vw;
     top: 300px;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
     display: block;
+    transition: 0.5s
   }
 
   .loc3 {
@@ -730,14 +816,47 @@ footer p {
     color: white;
     font-family: 'Montserrat', sans-serif;
     z-index: 3;
+    transition: 0.5s;
+    z-index: 6
+  }
+
+  .text3 p {
+    position: absolute;
+    display: none;
+  }
+
+  .test3:hover .pic33 {
+    height: 270px;
+    z-index: 6;
+    margin-top: -60px;
+  }
+
+  .test3:hover .loc3 {
+    left: 200px;
+    top: 300px;
+    z-index: 7
+  }
+
+  .test3:hover .text3 p {
+    top: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline;
+    text-align: center;
+    z-index: 7;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 30px;
+    color: white;
   }
 
   .pic4 {
     position: absolute;
     width: 100vw;
     top: 450px;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
+    transition: .5s;
   }
 
   .loc4 {
@@ -747,6 +866,43 @@ footer p {
     right: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    transition: .5s;
+    z-index: 5
+  }
+
+  .text4 p {
+    display: none;
+    position: absolute;
+  }
+
+  .test4:hover .pic4 {
+    height: 270px;
+    z-index: 7;
+    margin-top: -60px;
+  }
+
+  .test4:hover .loc4 {
+    right: 200px;
+    top: 450px;
+    z-index: 7
+  }
+
+  .test4:hover .text4 p {
+    top: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline;
+    text-align: center;
+    z-index: 7;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 30px;
+    color: white;
+  }
+
+  .text5 {
+    position: absolute;
+    display: none;
   }
 
   .pic5 {
