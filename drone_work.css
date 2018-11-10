@@ -48,12 +48,13 @@ overflow-x: hidden;
 .container-5-work h1,
 .container-6-work h1 {
   position: absolute;
-  top: 38%;
+  top: 25%;
   left: 10%;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 110px;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
 }
 
 .container-1-work h5,
