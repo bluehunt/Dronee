@@ -54,27 +54,28 @@ html, body {
 
 .contact {
   transition: .9s ease opacity,.9s ease transform,.3s background-color, .3s color, .3s border-bottom;
-  opacity: 0;
   transform: scale(0);
+  opacity: 1;
   text-align: center;
   color: white;
-  width: 30%;
+  width: 90vw;
+  height: 37vh;
   background-color: rgb(51, 51, 51);
-  margin: 2% 15%;
-  padding: 20px;
   font-size: 16px;
-  z-index: 18;
+  position: absolute;
+  top: 21vh;
+  left: 5vw;
 }
+
+.contact h2 {
+padding-bottom: 10%;
+}
+
 .contact-view {
   opacity: 1;
   transform: scale(1);
 }
 
-.contact:hover {
-  color: rgb(51, 51, 51);
-  background-color: white;
-  border-bottom: 2px solid red;
-}
 
 /* END MENU + CONTACT */
 
@@ -92,21 +93,23 @@ html, body {
 
 .logo-land-page {
   width: 90px;
-  padding-left: 20px;
-  padding-top: 50px;
+  padding-left: 23px;
+  padding-top: 12%;
 }
 
 .land-page h1 {
   color: white;
-  padding-left: 20px;
-  padding-top: 30px;
+  padding-left: 23px;
+  padding-right: 20px;
+  padding-top: 10%;
+  font-size: 4.8vh;
 
 }
 
 .land-page h5 {
   color: white;
-  padding-left: 20px;
-  padding-top: 30px;
+  padding-left: 23px;
+  padding-top: 10%;
 }
 
 .land-page h6 {
@@ -252,7 +255,7 @@ html, body {
 .intro {
   background-color: rgb(247, 247, 247);
   text-align: center;
-  margin-top: 750px;
+  margin-top: 450px;
   padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
   height: 400px;
@@ -523,7 +526,7 @@ footer p {
   .intro {
     background-color: rgb(247, 247, 247);
     text-align: center;
-    margin-top: 750px;
+    margin-top: 550px;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
     height: 350px;
@@ -695,7 +698,7 @@ footer p {
     object-fit: cover;
     transition-timing-function: ease-in ease-out;
     transition: 0.5s;
-    z-index: 6;
+    z-index: 2;
   }
 
   .loc1 {
@@ -705,7 +708,7 @@ footer p {
     left: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    z-index: 6;
+    z-index: 2;
     transition: 0.5s;
     height: 150px;
     width: 100%;
@@ -719,12 +722,11 @@ footer p {
 
   .test1:hover .pic1 {
     height: 270px;
-    z-index: 6;
     margin-top: -60px;
   }
 
   .test1:hover .loc1 {
-    left: 200px;
+    left: 100px;
     top: -20px;
   }
 
@@ -734,7 +736,7 @@ footer p {
     font-size: 15px;
     display: inline;
     text-align: center;
-    z-index: 6;
+    z-index: 2;
     padding-right: 20%;
     padding-left: 20%;
     line-height: 30px;
@@ -750,7 +752,7 @@ footer p {
     object-fit: cover;
     transition-timing-function: ease-in ease-out;
     transition: 0.5s;
-    z-index: 5;
+    /* z-index: 5; */
   }
 
   .loc2 {
@@ -761,7 +763,7 @@ footer p {
     color: white;
     font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
-    z-index: 5
+    /* z-index: 5 */
   }
 
   .text2 p {
@@ -776,7 +778,7 @@ footer p {
   }
 
   .test2:hover .loc2 {
-    right: 200px;
+    right: 100px;
     top: 150px;
     z-index: 7
   }
@@ -832,7 +834,7 @@ footer p {
   }
 
   .test3:hover .loc3 {
-    left: 200px;
+    left: 100px;
     top: 300px;
     z-index: 7
   }
@@ -857,6 +859,7 @@ footer p {
     height: 150px;
     object-fit: cover;
     transition: .5s;
+    /* z-index: 9; */
   }
 
   .loc4 {
@@ -882,7 +885,7 @@ footer p {
   }
 
   .test4:hover .loc4 {
-    right: 200px;
+    right: 100px;
     top: 450px;
     z-index: 7
   }
@@ -900,11 +903,6 @@ footer p {
     color: white;
   }
 
-  .text5 {
-    position: absolute;
-    display: none;
-  }
-
   .pic5 {
     display: none;
   }
@@ -916,6 +914,7 @@ footer p {
     height: 150px;
     object-fit: cover;
     display: block;
+    transition: .5s;
   }
 
   .loc5 {
@@ -925,7 +924,38 @@ footer p {
     left: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    z-index: 3;
+    z-index: 6;
+    transition: .5s;
+  }
+
+  .text5 p {
+    position: absolute;
+    display: none;
+  }
+
+  .test5:hover .pic55 {
+    height: 270px;
+    z-index: 7;
+    margin-top: -60px;
+  }
+
+  .test5:hover .loc5 {
+    left: 100px;
+    top: 600px;
+    z-index: 8;
+  }
+
+  .test5:hover .text5 p {
+    top: 640px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline;
+    text-align: center;
+    z-index: 8;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 30px;
+    color: white;
   }
 
   /* END PORTOFOLIO PICTURES */
