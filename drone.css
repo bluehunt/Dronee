@@ -7,6 +7,12 @@ html, body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
 /* END FIRST SPEC */
 
 /* MENU + CONTACT */
@@ -68,7 +74,7 @@ html, body {
 }
 
 .contact h2 {
-padding-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 .contact-view {
@@ -131,7 +137,7 @@ padding-bottom: 10%;
 .portofolio h4 {
   text-align: center;
   margin-top: 0px;
-  padding-top: 19%;
+  padding-top: 13%;
   font-size: 11px;
   font-weight: lighter;
   letter-spacing: 4px;
@@ -141,7 +147,7 @@ padding-bottom: 10%;
 .portofolio h2 {
   text-align: center;
   margin-top: 5px;
-  padding-bottom: 19%;
+  padding-bottom: 13%;
   font-weight: 500;
   font-size: 35px;
   margin-bottom: 0px;
@@ -255,10 +261,10 @@ padding-bottom: 10%;
 .intro {
   background-color: rgb(247, 247, 247);
   text-align: center;
-  margin-top: 450px;
+  margin-top: 440px;
   padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
-  height: 400px;
+  height: 430px;
 }
 
 .intro h5 {
@@ -274,8 +280,9 @@ padding-bottom: 10%;
 /* VIEW THE WORK */
 
 .container4 {
-  background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
-
+  background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
 }
 
 .container4 h3 {
@@ -286,7 +293,9 @@ padding-bottom: 10%;
   text-align: center;
   color: white;
   font-size: 34px;
+
 }
+
 
 .container4 img {
   padding-bottom: 30%;
@@ -302,23 +311,66 @@ padding-bottom: 10%;
 
 /* FOOTER */
 
-footer {
-  position: sticky;
-  position: -webkit-sticky;
+.footer {
   bottom: 0;
   z-index: -1;
-  height: 150px;
-  background-color: rgb(51, 51, 51);
-  color: white;
-  padding: 35px 0;
+  height: 180px;
+  background-color: rgb(247, 247, 247);
+  color: black;
+  padding: 45px 0;
   text-align: center;
 }
 
-footer p {
-  font-size: 16px;
-  line-height: 26px;
-
+.footer h4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
+
+.footer ul {
+  padding-left: 0px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.footer a, .footer2 a {
+  color: black !important;
+}
+
+
+
+.footer2 {
+  background-color: rgb(233, 233, 233);
+  height: 150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer2 h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -360,7 +412,18 @@ footer p {
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .contact {
+    height: 27vh;
+    top: 28vh;
+  }
+
+  .contact h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
   .land-page {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1526786220381-1d21eedf92bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=359945facfe4c422fc308eaff8c0999f&auto=format&fit=crop&w=1050&q=80");
   background-repeat: no-repeat;
@@ -388,6 +451,7 @@ footer p {
     color: white;
     padding-left: 60px;
     padding-top: 30px;
+    font-size: 22px;
   }
 
   /* END LANDING PAGE */
@@ -529,11 +593,11 @@ footer p {
     margin-top: 550px;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
-    height: 350px;
+    height: 450px;
   }
 
   .intro h3 {
-    padding-top: 30px;
+    padding-top: 7%;
   }
 
   .intro h5 {
@@ -549,8 +613,9 @@ footer p {
   /* VIEW THE WORK */
 
   .container4 {
-    background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
-
+    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
   }
 
   .container4 h3 {
@@ -577,23 +642,73 @@ footer p {
 
   /* FOOTER */
 
-  footer {
-    position: sticky;
-    position: -webkit-sticky;
+
+  .footer {
     bottom: 0;
     z-index: -1;
-    height: 150px;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    padding: 35px 0;
+    height: 200px;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 45px 0;
     text-align: center;
   }
 
-  footer p {
-    font-size: 16px;
-    line-height: 26px;
-
+  .footer h4 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
   }
+
+  .footer ul {
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .footer li {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+  }
+
+  .footer2 {
+    background-color: rgb(233, 233, 233);
+    height: 180px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .footer2 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+  }
+
+  .footer2 p {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .contact {
+      top: 19vh;
+      height: 25vh;
+    }
+
+    .contact h2 {
+      padding-top: 40px;
+      padding-bottom: 50px;
+    }
 
 }
 
@@ -624,6 +739,17 @@ footer p {
   and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
+
+  .contact {
+    height: 25vh;
+    top: 36vh;
+  }
+
+  .contact h2 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
   .land-page {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1526786220381-1d21eedf92bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=359945facfe4c422fc308eaff8c0999f&auto=format&fit=crop&w=1050&q=80");
   background-repeat: no-repeat;
@@ -652,6 +778,7 @@ footer p {
     color: white;
     padding-left: 80px;
     padding-top: 30px;
+    font-size: 18px;
   }
 
   /* END LANDING PAGE */
@@ -666,7 +793,7 @@ footer p {
   .portofolio h4 {
     text-align: center;
     margin-top: 0px;
-    padding-top: 15%;
+    padding-top: 9%;
     font-size: 11px;
     font-weight: lighter;
     letter-spacing: 4px;
@@ -676,7 +803,7 @@ footer p {
   .portofolio h2 {
     text-align: center;
     margin-top: 5px;
-    padding-bottom: 15%;
+    padding-bottom: 9%;
     font-weight: 500;
     font-size: 35px;
     margin-bottom: 0px;
@@ -718,6 +845,7 @@ footer p {
     position: absolute;
     top: 700px;
     transition: 0.5s;
+    color: white;
   }
 
   .test1:hover .pic1 {
@@ -984,12 +1112,14 @@ footer p {
   /* VIEW THE WORK */
 
   .container4 {
-    background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
+    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
 
   }
 
   .container4 h3 {
-    padding-top: 20%;
+    padding-top: 14%;
     padding-bottom: 5%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -999,7 +1129,7 @@ footer p {
   }
 
   .container4 img {
-    padding-bottom: 20%;
+    padding-bottom: 14%;
     width: 50px;
     display: block;
     margin-left: auto;
@@ -1012,23 +1142,59 @@ footer p {
 
   /* FOOTER */
 
-  footer {
-    position: sticky;
-    position: -webkit-sticky;
+  .footer {
     bottom: 0;
     z-index: -1;
-    height: 150px;
-    background-color: rgb(51, 51, 51);
-    color: white;
-    padding: 35px 0;
+    height: 200px;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 45px 0;
     text-align: center;
   }
 
-  footer p {
-    font-size: 16px;
-    line-height: 26px;
+    .footer h4 {
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      text-align: center;
+    }
 
-  }
+    .footer ul {
+      padding-left: 0px;
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    .footer li {
+      display: inline;
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 25px;
+    }
+
+    .footer2 {
+      background-color: rgb(233, 233, 233);
+      height: 180px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .footer2 h4{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      text-align: center;
+      padding-top: 20px;
+      margin-top: 0px;
+    }
+
+    .footer2 p {
+      font-size: 20px;
+    }
+
+    .footer2 a {
+      font-size: 20px;
+    }
 
 
 }
