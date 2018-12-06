@@ -7,6 +7,11 @@ html, body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
 /* END FIRST SPEC */
 
 /* MENU + CONTACT */
@@ -131,7 +136,7 @@ html, body {
 .portofolio h4 {
   text-align: center;
   margin-top: 0px;
-  padding-top: 10%;
+  padding-top: 13%;
   font-size: 11px;
   font-weight: lighter;
   letter-spacing: 4px;
@@ -141,7 +146,7 @@ html, body {
 .portofolio h2 {
   text-align: center;
   margin-top: 5px;
-  padding-bottom: 10%;
+  padding-bottom: 13%;
   font-weight: 500;
   font-size: 35px;
   margin-bottom: 0px;
@@ -255,10 +260,10 @@ html, body {
 .intro {
   background-color: rgb(247, 247, 247);
   text-align: center;
-  margin-top: 450px;
+  margin-top: 440px;
   padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
-  height: 400px;
+  height: 430px;
 }
 
 .intro h5 {
@@ -274,8 +279,9 @@ html, body {
 /* VIEW THE WORK */
 
 .container4 {
-  background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104099/brianmainpic.jpg') repeat fixed 100%;
-
+  background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
 }
 
 .container4 h3 {
@@ -302,23 +308,40 @@ html, body {
 
 /* FOOTER */
 
-footer {
-  position: sticky;
-  position: -webkit-sticky;
+.footer {
   bottom: 0;
   z-index: -1;
-  height: 150px;
-  background-color: rgb(51, 51, 51);
-  color: white;
-  padding: 35px 0;
+  height: 180px;
+  background-color: rgb(247, 247, 247);
+  color: black;
+  padding: 45px 0;
   text-align: center;
 }
 
-footer p {
-  font-size: 16px;
-  line-height: 26px;
-
+.footer h4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
+
+.footer ul {
+  padding-left: 0px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+
+
+
 
 
 
@@ -561,8 +584,9 @@ footer p {
   /* VIEW THE WORK */
 
   .container4 {
-    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104099/brianmainpic.jpg') repeat fixed 100%;
-
+    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
   }
 
   .container4 h3 {
@@ -1033,7 +1057,7 @@ footer p {
   }
 
   .container4 h3 {
-    padding-top: 20%;
+    padding-top: 14%;
     padding-bottom: 5%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1043,7 +1067,7 @@ footer p {
   }
 
   .container4 img {
-    padding-bottom: 20%;
+    padding-bottom: 14%;
     width: 50px;
     display: block;
     margin-left: auto;
