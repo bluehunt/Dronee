@@ -110,6 +110,7 @@ padding-bottom: 10%;
   color: white;
   padding-left: 23px;
   padding-top: 10%;
+  font-size: 18px;
 }
 
 .land-page h6 {
@@ -255,10 +256,10 @@ padding-bottom: 10%;
 .intro {
   background-color: rgb(247, 247, 247);
   text-align: center;
-  margin-top: 450px;
-  padding-top: 30px;
+  margin-top: 410px;
+  padding-top: 45px;
   font-family: 'Montserrat', sans-serif;
-  height: 400px;
+  height: 490px;
 }
 
 .intro h5 {
@@ -274,8 +275,9 @@ padding-bottom: 10%;
 /* VIEW THE WORK */
 
 .container4 {
-  background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
-
+  background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') repeat fixed 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .container4 h3 {
@@ -302,7 +304,7 @@ padding-bottom: 10%;
 
 /* FOOTER */
 
-footer {
+/* footer {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
@@ -318,6 +320,56 @@ footer p {
   font-size: 16px;
   line-height: 26px;
 
+} */
+
+.footer {
+    bottom: 0;
+    z-index: -1;
+    height: 180px;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.footer h4 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer li {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.footer ul {
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer2 {
+    background-color: rgb(233, 233, 233);
+    height: 150px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer2 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.footer a, .footer2 a {
+    color: black !important;
 }
 
 
@@ -549,8 +601,9 @@ footer p {
   /* VIEW THE WORK */
 
   .container4 {
-    background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
-
+    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
   }
 
   .container4 h3 {
@@ -984,8 +1037,9 @@ footer p {
   /* VIEW THE WORK */
 
   .container4 {
-    background: url('https://images.unsplash.com/photo-1540781481473-32298e12ba0c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f7e19b2fb9ce3223ce8abb1ada140b79&auto=format&fit=crop&w=1534&q=80') repeat fixed 100%;
-
+    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') repeat fixed 100%;
+    background-size: cover;
+    background-position: center center;
   }
 
   .container4 h3 {

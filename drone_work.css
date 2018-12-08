@@ -438,6 +438,60 @@ overflow-x: hidden;
   background-color: rgba(185, 220, 228, 0.3);
 }*/
 
+.footer {
+    bottom: 0;
+    z-index: -1;
+    height: 300px !important;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 45px 0;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer h4 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px !important;
+    text-align: center;
+}
+
+.footer li {
+    display: inline;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 50px !important;
+}
+
+.footer ul {
+    padding-left: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer2 {
+    background-color: rgb(233, 233, 233);
+    height: 430px !important;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px !important;
+}
+
+.footer2 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px !important;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.footer a, .footer2 a {
+    color: black !important;
+}
 
 
 
