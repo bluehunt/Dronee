@@ -4,7 +4,6 @@
 }
 
 html, body {
-  overflow-x: hidden;
 }
 
 a {
@@ -266,10 +265,10 @@ a {
 .intro {
   background-color: rgb(247, 247, 247);
   text-align: center;
-  margin-top: 410px;
-  padding-top: 45px;
+  margin-top: 250px;
+  padding-top: 95px;
   font-family: 'Montserrat', sans-serif;
-  height: 490px;
+  height: 540px;
 
 }
 
@@ -292,19 +291,19 @@ a {
 }
 
 .container4 h3 {
-  padding-top: 35%;
-  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
   color: white;
-  font-size: 34px;
+  font-size: 38px;
 
 }
 
 
 .container4 img {
-  padding-bottom: 30%;
+  padding-bottom: 40%;
   width: 50px;
   display: block;
   margin-left: auto;
@@ -385,7 +384,7 @@ a {
     text-align: center;
 }
 
-.footer li {
+.footer li, .footer2 li {
     display: inline;
     padding-top: 20px;
     padding-left: 15px;
@@ -393,7 +392,7 @@ a {
     font-size: 20px;
 }
 
-.footer ul {
+.footer ul, .footer2 ul {
     padding-left: 0px;
     padding-top: 10px;
     text-align: center;
@@ -401,7 +400,7 @@ a {
 
 .footer2 {
     background-color: rgb(233, 233, 233);
-    height: 150px;
+    height: 210px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -654,7 +653,7 @@ a {
   .intro {
     background-color: rgb(247, 247, 247);
     text-align: center;
-    margin-top: 550px;
+    margin-top: 0px;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
     height: 450px;
@@ -677,27 +676,24 @@ a {
   /* VIEW THE WORK */
 
   .container4 {
-<<<<<<< HEAD
-    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') repeat fixed 100%;
-=======
+
     background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
->>>>>>> 0e446003fa63b0d60ced9bd1c183661505a8b5b7
     background-size: cover;
     background-position: center center;
   }
 
   .container4 h3 {
-    padding-top: 25%;
-    padding-bottom: 5%;
+    padding-top: 9%;
+    padding-bottom: 2%;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
     color: white;
-    font-size: 34px;
+    font-size: 38px;
   }
 
   .container4 img {
-    padding-bottom: 25%;
+    padding-bottom: 40%;
     width: 50px;
     display: block;
     margin-left: auto;
@@ -744,7 +740,7 @@ a {
 
   .footer2 {
     background-color: rgb(233, 233, 233);
-    height: 180px;
+    height: 280px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
@@ -758,6 +754,11 @@ a {
   }
 
   .footer2 p {
+    font-size: 20px;
+    padding-top: 0px;
+  }
+
+  .footer2 a {
     font-size: 20px;
   }
 
@@ -1191,30 +1192,25 @@ a {
   /* VIEW THE WORK */
 
   .container4 {
-<<<<<<< HEAD
-    background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') repeat fixed 100%;
-    background-size: cover;
-    background-position: center center;
-=======
+
     background: url('https://res.cloudinary.com/tark-industries/image/upload/v1544104458/brianmainpic2.jpg') no-repeat fixed 100%;
     background-size: cover;
     background-position: center center;
 
->>>>>>> 0e446003fa63b0d60ced9bd1c183661505a8b5b7
   }
 
   .container4 h3 {
-    padding-top: 14%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 1%;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
     color: white;
-    font-size: 34px;
+    font-size: 38px;
   }
 
   .container4 img {
-    padding-bottom: 14%;
+    padding-bottom: 23%;
     width: 50px;
     display: block;
     margin-left: auto;
@@ -1260,7 +1256,7 @@ a {
 
     .footer2 {
       background-color: rgb(233, 233, 233);
-      height: 180px;
+      height: 235px;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
     }
