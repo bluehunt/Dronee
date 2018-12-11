@@ -426,7 +426,7 @@ overflow-x: hidden;
 
   .footer2-w {
       background-color: rgb(233, 233, 233);
-      height: 220px !important;
+      height: 270px !important;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
       margin-right: 10px;
@@ -471,7 +471,7 @@ overflow-x: hidden;
     text-align: center;
 }
 
-.footer-w li {
+.footer-w li, .footer2-w li {
     display: inline;
     padding-top: 20px;
     padding-left: 35px;
@@ -479,7 +479,7 @@ overflow-x: hidden;
     font-size: 40px ;
 }
 
-.footer-w ul {
+.footer-w ul, .footer2-w ul {
     padding-left: 0px;
     padding-top: 10px;
     text-align: center;
@@ -487,7 +487,7 @@ overflow-x: hidden;
 
 .footer2-w {
     background-color: rgb(233, 233, 233);
-    height: 360px ;
+    height: 430px ;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin-right: 10px;
