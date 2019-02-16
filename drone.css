@@ -17,11 +17,12 @@ a {
 /* MENU + CONTACT */
 
 #navbar {
-  color: white;
-  width: 20px;
-  position: absolute;
-  top: 35px;
-  right: 35px;
+   color: white;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 
